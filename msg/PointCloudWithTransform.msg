@@ -1,0 +1,3 @@
+sensor_msgs/PointCloud2 point_cloud
+geometry_msgs/Point camera_origin
+geometry_msgs/Transform point_cloud_to_base_transform
