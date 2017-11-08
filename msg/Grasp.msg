@@ -1,2 +1,4 @@
 Header header
-geometry_msgs/Pose pose
+float32 score
+geometry_msgs/PoseStamped pose
+GraspParams params

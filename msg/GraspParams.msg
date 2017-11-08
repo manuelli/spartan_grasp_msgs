@@ -1,0 +1,6 @@
+float32 hand_inner_diameter
+float32 finger_width
+float32 hand_depth
+float32 hand_height
+float32 init_bite
+float32 palm_depth
