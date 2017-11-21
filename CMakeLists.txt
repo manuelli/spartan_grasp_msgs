@@ -14,6 +14,8 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   sensor_msgs
   message_generation
+  actionlib_msgs
+  actionlib
 )
 
 ## System dependencies are found with CMake's conventions
@@ -64,12 +66,11 @@ add_message_files(
    GenerateGraspsFromPointCloudList.srv
  )
 
-## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
-#   Action2.action
-# )
+# Generate actions in the 'action' folder
+add_action_files(
+  FILES
+  GenerateGraspsFromPointCloudList.action
+)
 
 # Generate added messages and services with any dependencies listed here
 generate_messages(
@@ -77,6 +78,7 @@ generate_messages(
   std_msgs
   geometry_msgs
   sensor_msgs
+  actionlib_msgs
 )
 
 ################################################

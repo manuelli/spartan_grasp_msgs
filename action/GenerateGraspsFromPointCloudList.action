@@ -1,0 +1,9 @@
+# goal
+PointCloudList point_clouds
+---
+# result
+Grasp[] scored_grasps
+---
+# feedback
+Grasp[] scored_grasps
+
