@@ -56,8 +56,10 @@ add_message_files(
   FILES
   Grasp.msg
   GraspParams.msg
+  Params.msg
   PointCloudList.msg
   PointCloudWithTransform.msg
+  Rectangle.msg
 )
 
 # Generate services in the 'srv' folder

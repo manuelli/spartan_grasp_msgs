@@ -1,5 +1,6 @@
 # goal
 PointCloudList point_clouds
+Params params
 ---
 # result
 Grasp[] scored_grasps
