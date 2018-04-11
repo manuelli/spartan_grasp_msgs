@@ -72,6 +72,7 @@ add_message_files(
 add_action_files(
   FILES
   GenerateGraspsFromPointCloudList.action
+  Grasp3DLocation.action
 )
 
 # Generate added messages and services with any dependencies listed here
