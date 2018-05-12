@@ -3,4 +3,6 @@ PointCloudList point_clouds
 
 ---
 
-Grasp[] scored_grasps
+# result
+Grasp[] volume_grasps
+Grasp[] antipodal_grasps

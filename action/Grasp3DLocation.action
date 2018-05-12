@@ -4,8 +4,10 @@ Params params
 geometry_msgs/Point grasp_point
 ---
 # result
-Grasp[] scored_grasps
+Grasp[] volume_grasps
+Grasp[] antipodal_grasps
 ---
 # feedback
-Grasp[] scored_grasps
+Grasp[] volume_grasps
+Grasp[] antipodal_grasps
 
